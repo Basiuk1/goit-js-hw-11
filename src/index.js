@@ -1,8 +1,8 @@
 import simpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import Notiflix from 'notiflix';
-import { createMarkup } from './js/markup';
-import { getImages } from './js/api';
+import { createMarkup } from './markup';
+import { getImages } from './api';
 
 const searchForm = document.querySelector('#search-form');
 const buttonLoadMore = document.querySelector('.load-more');
