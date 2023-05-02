@@ -45,8 +45,8 @@ async function onFormSubmit(e) {
         buttonLoadMore.classList.remove('is-hidden');
       }
     }
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    console.log(err);
   }
 }
 async function onBtnLoad() {
@@ -64,7 +64,7 @@ async function onBtnLoad() {
         "We're sorry, but you've reached the end of search results."
       );
     }
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    console.log(err);
   }
 }
